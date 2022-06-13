@@ -1,0 +1,7 @@
+main.bg-full-screen-image.default-transition {
+background: url(https://app.semantlink.com/app-assets/images/backgrounds/bg-18.jpg); 
+}
+
+.danger {
+    color: #fa626b !important;
+}
