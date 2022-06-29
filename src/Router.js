@@ -5,6 +5,9 @@ import Register from "./components/Register";
 import ProductList from "./components/ProductList";
 import UpdateProfile from "./components/UpdateProfile";
 import Articles from "./components/Articles";
+import HistoriqueArticle from "./components/HistoriqueArticle";
+import Redactionarticle from "./components/Redactionarticle";
+import Achatcredits from "./components/payments/Achatcredits";
 
 
 /*Routes is used to be Switch*/
@@ -15,10 +18,12 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
-      <Route path="/productlist" element={<ProductList />} />
-      <Route path="/updateprofil" element={<UpdateProfile />} />
-      <Route path="/articles" element={<Articles />} />
-      
+        <Route path="/productlist" element={<ProductList />} />
+        <Route path="/updateprofil" element={<UpdateProfile />} />
+        <Route path="/historique" element={<HistoriqueArticle />} />
+        <Route path="/articles" element={<Articles />} />
+        <Route path="/redaction" element={<Redactionarticle />} />
+        <Route path="/achatcredits" element={<Achatcredits />} />
     </Routes>
      
     );

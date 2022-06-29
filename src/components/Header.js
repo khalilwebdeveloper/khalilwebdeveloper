@@ -1,8 +1,31 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Redirect } from "react-router-dom";
 
 export default class header extends Component {
+
+
+  state = {
+    navigate: false,
+  };
+
+  onLogoutHandler = () => {
+    localStorage.clear();
+    this.setState({
+      navigate: true,
+    });
+  };
+
+
   render() {
+
+    //const user = JSON.parse(localStorage.getItem("userData"));
+    const { navigate } = this.state;
+    if (navigate) {
+      //return <Redirect to="/" push={true} />;
+       window.location.href = "http://localhost:3000/";
+    }
+
     return ( 
 
    <div>
@@ -28,6 +51,7 @@ export default class header extends Component {
         </svg>
       </a>
       <div className="search" data-search-path="Pages.Search.html?q=">
+      
         <input placeholder="Search..." />
         <span className="search-icon">
           <i className="simple-icon-magnifier" />
@@ -153,7 +177,14 @@ export default class header extends Component {
           <a className="dropdown-item" href="#">Features</a>
           <a className="dropdown-item" href="#">History</a>
           <a className="dropdown-item" href="#">Support</a>
-          <a className="dropdown-item" href="#">Sign out</a>
+          <a className="dropdown-item" href="#">
+          <button
+              className="btn btn-primary text-right"
+              onClick={this.onLogoutHandler}
+            >
+              Logout
+            </button>
+          </a>
         </div>
       </div>
     </div>

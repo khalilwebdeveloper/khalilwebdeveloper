@@ -1,0 +1,267 @@
+
+#zoid-paypal-button-d53e46e363 {
+    font-size: 0;
+    width: 100%;
+    overflow: hidden;
+    min-width: 75px;
+}
+
+#zoid-paypal-button-d53e46e363.paypal-button-size-responsive {
+    text-align: center;
+}
+
+#zoid-paypal-button-d53e46e363 > .zoid-outlet {
+    display: inline-block;
+    min-width: 75px;
+    max-width: 750px;
+    position: relative;
+}
+
+#zoid-paypal-button-d53e46e363.paypal-button-layout-vertical > .zoid-outlet {
+    min-width: 75px;
+}
+
+#zoid-paypal-button-d53e46e363 > .zoid-outlet {
+    width:  250px;
+    height: 35px;
+}
+
+    #zoid-paypal-button-d53e46e363.paypal-button-size-responsive > .zoid-outlet {
+    width: 100%;
+}
+
+#zoid-paypal-button-d53e46e363 > .zoid-outlet > iframe {
+    min-width: 100%;
+    max-width: 100%;
+    width: 75px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#zoid-paypal-button-d53e46e363 > .zoid-outlet > iframe.zoid-component-frame {
+    z-index: 100;
+}
+
+#zoid-paypal-button-d53e46e363 > .zoid-outlet > iframe.zoid-prerender-frame {
+    transition: opacity .2s linear;
+    z-index: 200;
+}
+
+#zoid-paypal-button-d53e46e363 > .zoid-outlet > iframe.zoid-visible {
+    opacity: 1;
+}
+
+#zoid-paypal-button-d53e46e363 > .zoid-outlet > iframe.zoid-invisible {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+.quantity-nav {
+    float: left;
+    position: relative;
+    height: 42px;
+    font-weight: bold;
+}
+
+.alert-info {
+    background-color: #2196f3 ;
+    border-color: #2196f3;
+    color: #fff;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slidecontainer label {
+    margin-bottom: 30px;
+}
+
+.icon {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.pill {
+    border-radius: 10em!important;
+}
+
+
+.icon-credit-card-alt:before {
+    content: "\f283";
+}
+
+.quantity {
+    position: relative;
+    overflow: hidden;
+  }
+
+ 
+
+  input[type=number]
+  {
+    -moz-appearance: textfield;
+  }
+
+  .quantity input {
+    width: 150px;
+    height: 42px;
+    line-height: 1.65;
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    border: 1px solid #948f8f;
+  }
+
+  .quantity input:focus {
+    outline: 0;
+  }
+
+  .quantity-nav {
+    float: left;
+    position: relative;
+    height: 42px;
+    font-weight: bold;
+  }
+
+  .quantity-button {
+    position: relative;
+    cursor: pointer;
+    border-left: 1px solid #948f8f;
+    width: 40px;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    /*font-family: "Trebuchet MS", Helvetica, sans-serif !important;*/
+    line-height: 1.3;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+  .quantity-button.quantity-up {
+    position: absolute;
+    height: 50%;
+    top: 0;
+    border-bottom: 1px solid #948f8f;
+  }
+
+  .quantity-button.quantity-down {
+    position: absolute;
+    bottom: -1px;
+    height: 50%;
+  }
+        .slidecontainer{width: 100%;}
+        .slidecontainer label{margin-bottom:30px;}
+        .slidecontainer1, .slidecontainer2{font-size: 1.8em;margin:15px 0;}
+        #slidecontainer2{padding:10px;display: inline-block;background: #FFF;min-width: 100px;}
+        .slider{ -webkit-appearance: none;width: 100%;height: 15px;border-radius: 5px;background: #d3d3d3;outline: none;opacity: 0.7;-webkit-transition: .2s;transition: opacity .2s; }
+        .slider::-webkit-slider-thumb {-webkit-appearance: none;appearance: none;width: 25px;height: 25px;border-radius: 50%;background:#0AC29D;cursor: pointer; }
+        .slider::-moz-range-thumb { width: 25px;height: 25px;border-radius: 50%;background:#0AC29D;cursor: pointer; }
+    
+        .well {
+            min-height: 20px;
+            padding: 19px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid transparent;
+            border-radius: 0;
+            -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+        }
+
+        .btn-success:hover {
+            background-color: #347c37;
+            border-color: #347c37;
+            color: #fff;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 13px;
+            line-height: 1.538462;
+            border-radius: 0;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .btn-success {
+            background-color: #43a047;
+            border-color: #43a047;
+            color: #fff;
+        }
+
+        .paypal-button-row{
+            width: 25% !important;
+        }
+        .paypal-button.paypal-button-shape-rect{
+            border-radius: 25px !important;
+        }
+        .paypal-button.paypal-button-number-0.paypal-button-layout-vertical.paypal-button-shape-rect.paypal-button-number-multiple.paypal-button-env-sandbox.paypal-button-color-gold.paypal-button-text-color-black.paypal-logo-color-blue{
+            border-radius: 25px;
+        }
+
+        .paypalcontent{
+            max-width: 50% !important;
+            float: left;
+            text-align: center;
+        }
+
+        .StripeElement button {
+            width: 300px !important;
+            color: red;
+        }
+
+        div#stripebtn button {
+            width: 100%;
+            background-color: #43a047;
+            color: #fff;
+            border: none;
+            height: 54px;
+            border-radius: 6px;
+            float: left;
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+
+        .layout-vertical.paypal-button-shape-rect.paypal-button-number-multiple.paypal-button-env-sandbox.paypal-button-color-black.paypal-button-text-color-white.paypal-logo-color-white {
+            display: none;
+        }
+        
